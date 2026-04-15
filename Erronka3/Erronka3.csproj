@@ -95,6 +95,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Balorazioak.cs" />
+    <Compile Include="Bideojokoak.cs" />
     <Compile Include="DatuBaseKonexioa.cs" />
     <Compile Include="Login.cs">
       <SubType>Form</SubType>
