@@ -186,7 +186,6 @@ namespace Erronka3
             Langileak l = Langileak.login(email, pass, this.conn);
             return l;
         }
-        //-----Zuzentzen daudenak-----\\
         public void webgunekoInformazioaIkusi(DataGridView balorazioa, DataGridView iritziak)
         {
             balorazioa.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
@@ -285,6 +284,7 @@ namespace Erronka3
 
                     doc.Close();
                     stream.Close();
+                    MessageBox.Show("Sortu da PDF");
                 }
             }
         }
