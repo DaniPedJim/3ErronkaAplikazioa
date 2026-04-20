@@ -60,7 +60,7 @@ namespace Erronka3
             Iritziak i = lista.Find(iri => iri.getId() == id);
             return i.denuntziaKendu(this.conn);
         }
-        public List<Erabiltzaileak> erabibltzaileakIkusi(DataGridView dgv)
+        public List<Erabiltzaileak> erabiltzaileakIkusi(DataGridView dgv)
         {
             dgv.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
             dgv.ColumnCount = 5;
@@ -80,7 +80,7 @@ namespace Erronka3
         {
             return e.informazioaAldatu(this.conn);
         }
-        public List<Bideojokoak> bideojokorenGaraiaIkusi(DataGridView dgv)
+        public List<Bideojokoak> bideojokorenDestakatuaIkusi(DataGridView dgv)
         {
             dgv.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
             dgv.ColumnCount = 3;
